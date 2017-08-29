@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  height: 16%;
+  z-index: 20;
+}
+
+.desk-nav{
+  display: none;
+}
+
+.main-body{
+  position: absolute;
+  z-index: 0;
+  margin-top: 85px;
+}
+
+.nav-logo{
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+.nav-logo img{
+  width: 90%;
+  height: 100%
+}
+
+.but-image {
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+.but-image img{
+  width: 100%;
+  height: 90%;
+  padding: 4px;
+}
+
+
+.but-image img:hover{
+  opacity: .6;
+  background-color: grey;
+  padding-top: 2.5%;
+  padding-right: 2.5%;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+}
+
+
+
+
+@media screen and (min-width: 768px), all and (orientation: landscape) {
+  .desk-hide{
+    display: none;
+  }
+  .but-image img{
+    display: none;
+  }
+
+  .desk-nav{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    background-color: transparent;
+    width: 18%;
+    margin-top: 5%;
+  }
+
+
+  .desk-nav a{
+    padding:10px 6px 3px 13px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: black;
+    position: relative;
+  }
+
+  .desk-nav a:hover{
+    background-color: #B19100;
+  }
+
+  .main-body{
+    margin-left: 18%;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+
+  nav{
+    background-color: grey;
+    height: 100%;
+    width: 18%;
+    position: fixed;
+  }
+
+  .nav-logo{
+    width: 100%;
+  }
+
+  .nav-logo img{
+    width: 100%;
+    float: left;
+    height: auto;
+    z-index: 10;
+  }
+
+  .desk-navbar{
+    display: block;
+    z-index: 10;
+    position: fixed;
+
+    width: 18%;
+    background-color: transparent;
+    left: 0;
+    padding-top: 100px;
+  }
+
+  .desk-navbar a{
+    color: black;
+  }
+
+  .desk-navbar a:hover{
+    background-color: blue;
+  }
+
+  .but-image{
+    display: none;
+  }
+
+  .closebtn{
+    visibility: hidden;
+  }
+
+}
+
+/*
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+}
+
+
+
+
+
+
+@media screen and (min-width: 520px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .desk-hide{
+    display: none;
+  }
+  .but-image img{
+    display: none;
+  }
+
+  nav{
+    background-color: grey;
+    height: 100%;
+    width: 17%;
+    position: fixed;
+  }
+  .nav-logo img{
+    height: 90px;
+    width: 100%;
+    float: left;
+    z-index: 10;
+  }
+
+  #mySidenav{
+    width: 100%;
+  }
+
+  .sidenav{
+    width: 180px;
+    background-color: transparent;
+    left: 0;
+    padding-top: 100px;
+    position: relative;
+    z-index: -5;
+  }
+
+  .sidenav a{
+    color: black;
+  }
+
+  .sidenav a:hover{
+    background-color: blue;
+  }
+
+  .closebtn{
+    visibility: hidden;
+  }
+
+}
+
+*/
