@@ -50,6 +50,57 @@ nav{
 
 }
 
+.notice{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+  background-color: rgba(0,0,0,0.7);
+  z-index: 30;
+}
+
+.notice-board{
+  position: relative;
+
+  background-color: rgb(208, 225, 225);
+  border-radius: 20px;
+  height: 56%;
+  margin-left: 7%;
+  margin-right: 8%;
+  margin-top: 26%;
+  width: 87%;
+  padding: 15px;
+  z-index: 35;
+}
+
+.notice-board h1{
+  font-size: 29px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.notice-board .par2{
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.notice-bord button{
+  font-size: 22px;
+}
+
+.notice-button{
+  position: relative;
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+
 .sidenav {
     height: 100%;
     width: 0;
