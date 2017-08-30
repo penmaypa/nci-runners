@@ -100,6 +100,18 @@ nav{
   margin-top: 2%;
 }
 
+.notice-button:hover{
+  width: 56%;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.notice-button:active{
+  width: 54%;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
 
 .sidenav {
     height: 100%;

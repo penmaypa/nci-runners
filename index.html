@@ -18,6 +18,7 @@
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script src="js/nav-right-side.js"></script>
+      <script src="js/script.js"></script>
 
   </head>
 
@@ -48,7 +49,7 @@
           <a href="#">Contact</a>
       </div>
     </nav>
-    <div class="notice">
+    <div class="notice" id="my-notice">
       <div class="notice-board">
         <h1>Website is currently under beta testing</h1>
         <p>
@@ -58,10 +59,11 @@
           But feel free to look around !!!
         </p>
 
-        <img src="images/button.png" class="notice-button">
+        <img src="images/button.png" class="notice-button" onclick="close_not()">
 
       </div>
     </div>
+
     <div class="main-body">
       <p>
         Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device. It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.
