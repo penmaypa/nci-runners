@@ -16,7 +16,6 @@ nav{
 .main-body{
   position: absolute;
   z-index: 0;
-  margin-top: 85px;
 }
 
 .nav-logo{
@@ -58,6 +57,7 @@ nav{
   margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
+  display: none;
 
   background-color: rgba(0,0,0,0.7);
   z-index: 30;
@@ -124,6 +124,10 @@ nav{
     position: fixed;
 }
 
+.space{
+  position: relative;
+  height: 17%;
+}
 
 
 
