@@ -7,7 +7,7 @@
             <IgnoreTimeShift/>
         </Comparison>
         <SyncConfig>
-            <Variant>Update</Variant>
+            <Variant>Mirror</Variant>
             <CustomDirections>
                 <LeftOnly>right</LeftOnly>
                 <RightOnly>left</RightOnly>
