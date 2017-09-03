@@ -101,6 +101,11 @@ font-size: 105%;
   float: left;
 }
 
+.front-somedia:hover{
+  height: 13vh;
+  width: 13vh;
+}
+
 
 .main-body{
   position: absolute;
