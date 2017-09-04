@@ -3,7 +3,6 @@
 }
 
 
-
 body{
   font-size: 105%;
 }
@@ -42,7 +41,11 @@ body{
 
 .front-page{
     position: relative;
-    height: 100%;
+    height: 60vh;
+    margin-top: 4vh;
+    border: solid white;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .front-page h1{
@@ -166,6 +169,11 @@ body{
   height: 10%;
 }
 
+.space-2{
+  position: relative;
+  height: 20vh;
+}
+
 .section-1{
   position: relative;
   background-color: #ffffff;
@@ -174,6 +182,8 @@ body{
   font-size: 1.4em;
   float: left;
   margin-top: 3vh;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 #video-background {
@@ -215,7 +225,8 @@ body{
   }
   .front-page h1{
     display: inline-flex;
-    margin-left: 62vh;
+    margin-left: 20%;
+    margin-right: 20%;
     font-weight: bold;
     color:#B19100;
   }
@@ -283,6 +294,9 @@ body{
   .section-1{
     float: left;
     margin-top: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 8px;
   }
 
   .space{

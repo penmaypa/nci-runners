@@ -30,9 +30,11 @@
   <body onload="onload()">
     <nav>
         <div id="nav-main">
+        <a href="http://ncirunners.atwebpages.com">
           <div class="nav-logo">
-            <img src="../images/pen-nav/logo.png" id="my-nav-logo">
+            <img src="images\pen-nav\logo.png" id="my-nav-logo">
           </div>
+        </a>
           <div id="my-but-image" class="but-image" "font-size:30px;cursor:pointer" onclick="openNav()">
             <img src="../images/pen-nav/ham-button.png">
           </div>
