@@ -43,11 +43,11 @@
 
       <div id="mySidenav" class="sidenav desk-hide">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#home">Home</a>
-          <a href="#about-us">About Us</a>
-          <a href="#why-run">Why Run</a>
-          <a href="#train-ground">Training Ground</a>
-          <a href="#contact">Contact</a>
+          <a href="#home" onclick="closeNav()">Home</a>
+          <a href="#about-us" onclick="closeNav()">About Us</a>
+          <a href="#why-run" onclick="closeNav()">Why Run</a>
+          <a href="#train-ground" onclick="closeNav()">Training Ground</a>
+          <a href="#contact" onclick="closeNav()">Contact</a>
       </div>
 
       <div class="desk-nav">
@@ -77,15 +77,21 @@
     <div class="space">
     </div>
 
-    <div class="main-body">
+    <div class="main-background">
       <video autoplay loop id="video-background" muted plays-inline>
         <source src="video/running.mp4" type="video/mp4">
       </video>
 
-      <div class="front-page">
+      <div class="bkground-home">
+      </div>
+
+    </div>
+    <div class="main-body">
+
+      <div class="front-page" id="home">
           <h1>NCI Running Club</h1>
           <div class="front-container">
-              <a href="index.html">
+              <a href="pages\tips.html">
                 <div class="front-link">
                   Running Tips and Advice
                 </div>
@@ -107,7 +113,7 @@
       </div>
 
 
-      <div class="section-1">
+      <div class="section-1" id="about-us">
         <h2>About Us</h2>
         <p>
           We are a Running Club of the National College of Ireland. We love to run outdoors and letting the endorphins rush through our system. Running is so much better with friends and that’s why this club was formed in the first place.
@@ -117,7 +123,7 @@
         </p>
       </div>
 
-      <div class="section-1">
+      <div class="section-1" id="why-run">
         <h2>Why Start Running</h2>
         <ul>
          <li>Running is among the best aerobic exercises for physical conditioning of your heart and lungs.</li>
@@ -135,6 +141,31 @@
        </ul>
       </div>
 
+      <div class="section-1" id="train-ground">
+        <h2>Training Ground</h2>
+
+        <p>
+          Our usual spot for running is Ringsend Park, which is 1.75 km run from NCI. We usually run around the park and do some interval trainings.
+          <br>
+          Sometimes we run to Merrion Squaire or St Stephens Green.
+        </p>
+      </div>
+
+      <div class="site-map">
+        <ul>
+          <h2>Site Map</h2>
+          <li class> <a href="index.html#home">Home</a>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </li>
+          <li>About Us</li>
+          <li>Why Run</li>
+          <li></li>
+        </ul>
+      </div>
     </div>
 
   </body>

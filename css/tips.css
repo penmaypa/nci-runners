@@ -11,3 +11,28 @@ h1{
   height: 9vh;
   padding: 11px;
 }
+
+.train-plan-image{
+  height: 50vh;
+  margin-bottom: 10vh;
+  margin-left: -2%;
+  overflow-x: scroll;
+  position: relative;
+  width: 100%;
+}
+
+.train-plan-image img{
+  position: absolute;
+}
+
+
+@media screen and (min-width: 768px), all and (orientation: landscape) {
+
+  .train-plan-image{
+    margin-left: 0%;
+  }
+
+  .train-plan-image img{
+  }
+
+}

@@ -7,6 +7,18 @@ body{
   font-size: 105%;
 }
 
+.bkground-home{
+  background-image:url("../images/bg-2.png");
+  background-position: 1% 39vh;
+  background-repeat: no-repeat;
+  background-size:101%;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+
 .front-container{
   position: relative;
   margin: 11%;
@@ -40,12 +52,12 @@ body{
 }
 
 .front-page{
-    position: relative;
-    height: 60vh;
-    margin-top: 4vh;
     border: solid white;
+    height: 48vh;
+    margin-top: 12vh;
     margin-right: 5%;
     margin-left: 5%;
+    position: relative;
 }
 
 .front-page h1{
@@ -79,8 +91,11 @@ body{
 
 
 .main-body{
-  position: absolute;
+  position: fixed;
   z-index: 0;
+  overflow-y: scroll;
+  height: 100%;
+  margin-top: 10vh;
 }
 
 
@@ -166,12 +181,12 @@ body{
 
 .space{
   position: relative;
-  height: 10%;
+  height: 0%;
 }
 
 .space-2{
   position: relative;
-  height: 20vh;
+  height: 4vh;
 }
 
 .section-1{
@@ -186,7 +201,38 @@ body{
   margin-right: 0%;
 }
 
+.section-2{
+  position: relative;
+  background-color: #e7e7e7;
+  opacity: 1;
+  padding: 15px;
+  font-size: 1.4em;
+  float: left;
+  margin-top: 3vh;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.site-map{
+  background-color: #acb8d5;
+  float: left;
+  font-size: 1.8em;
+  margin-top: 10vh;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20vh;
+}
+
+.site-map li{
+  float: left;
+  margin-right: 20px;
+}
+
+.site-map li li{
+  float: none;
+}
+
 #video-background {
+  margin-top: 9vh;
   position: fixed;
   width: 125%;
   height: auto;
@@ -207,12 +253,14 @@ body{
     display: none;
   }
 
+
   .front-link{
     display: inline-flex;
     height: 23vh;
     margin-right: 4%;
     font-size: 2em;
     float: left;
+    padding-top: 5vh;
   }
 
   .front-link:hover{
@@ -223,6 +271,11 @@ body{
   .front-link:active{
     opacity:1;
   }
+
+  .front-page{
+    height: 73vh;
+  }
+
   .front-page h1{
     display: inline-flex;
     margin-left: 20%;
@@ -259,6 +312,10 @@ body{
     margin-left: 18%;
     padding-left: 0px;
     margin-top: 0px;
+  }
+
+  .main-background{
+    margin-left: 17%;
   }
 
 
@@ -299,11 +356,20 @@ body{
     border-radius: 8px;
   }
 
+  .section-2{
+    float: left;
+    margin-top: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 8px;
+  }
+
   .space{
     display: none;
   }
 
   #video-background {
+    margin-top: 0vh;
     position: fixed;
     width: 83%;
     height: auto;
