@@ -25,6 +25,12 @@ h1{
   position: absolute;
 }
 
+.video-content{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
 
 @media screen and (min-width: 768px), all and (orientation: landscape) {
 
@@ -33,6 +39,12 @@ h1{
   }
 
   .train-plan-image img{
+  }
+
+  .video-content{
+    position: relative;
+    width: 580px;
+    height: auto;
   }
 
 }

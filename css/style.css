@@ -89,6 +89,9 @@ body{
   width: 13vh;
 }
 
+.hide{
+  display: none;
+}
 
 .main-body{
   position: fixed;
@@ -167,6 +170,30 @@ body{
   filter: alpha(opacity=80);
 }
 
+.section-1{
+  position: relative;
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 15px;
+  font-size: 1.4em;
+  float: left;
+  margin-top: 3vh;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.section-2{
+  position: relative;
+  background-color: #e7e7e7;
+  opacity: 1;
+  padding: 15px;
+  font-size: 1.4em;
+  float: left;
+  margin-bottom: 4vh;
+  margin-top: 3vh;
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
 .sidenav {
     height: 100%;
@@ -189,33 +216,15 @@ body{
   height: 4vh;
 }
 
-.section-1{
+.space-3{
   position: relative;
-  background-color: #ffffff;
-  opacity: 0.8;
-  padding: 15px;
-  font-size: 1.4em;
-  float: left;
-  margin-top: 3vh;
-  margin-left: 0%;
-  margin-right: 0%;
+  height: 8vh;
 }
 
-.section-2{
-  position: relative;
-  background-color: #e7e7e7;
-  opacity: 1;
-  padding: 15px;
-  font-size: 1.4em;
-  float: left;
-  margin-top: 3vh;
-  margin-left: 0%;
-  margin-right: 0%;
-}
 .site-map{
-  background-color: #acb8d5;
+  background-color: #dde2ef;
   float: left;
-  font-size: 1.8em;
+  font-size: 1.4em;
   margin-top: 10vh;
   position: relative;
   width: 100%;
