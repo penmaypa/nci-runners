@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
+.author{
+  font-size: 3vh;
+  color: #eae097;
+  margin-left: 12px;
+  margin-top: 4vh;
+}
+
+#author-name{
+  font-size: 18px;
+  color: #eae097;
+  margin-top: -10px;
+  font-style: italic;
+}
+
+.author a{
+  font-size: 3vh;
+}
 
 body{
   font-size: 105%;
@@ -17,6 +34,27 @@ body{
   width: 100%;
   z-index: -1;
 }
+
+.frame-site-map{
+  background-color: #dde2ef;
+  float: left;
+  font-size: 1.4em;
+  margin-top: 10vh;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20vh;
+  height: 50vh;
+}
+
+.frame-site-map li{
+  float: left;
+  margin-right: 20px;
+}
+
+.frame-site-map li li{
+  float: none;
+}
+
 
 
 .front-container{
@@ -206,19 +244,8 @@ body{
     position: fixed;
 }
 
-.space{
-  position: relative;
-  height: 0%;
-}
-
-.space-2{
-  position: relative;
-  height: 4vh;
-}
-
-.space-3{
-  position: relative;
-  height: 8vh;
+.sidenav ul li a{
+  font-size: 3vh;
 }
 
 .site-map{
@@ -239,6 +266,23 @@ body{
 .site-map li li{
   float: none;
 }
+
+.space{
+  position: relative;
+  height: 0%;
+}
+
+.space-2{
+  position: relative;
+  height: 4vh;
+}
+
+.space-3{
+  position: relative;
+  height: 8vh;
+}
+
+
 
 #video-background {
   margin-top: 9vh;

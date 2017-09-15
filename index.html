@@ -6,11 +6,21 @@
           NCI Runners
       </title>
       <meta charset="utf-8">
+      
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="author" content="Penuel Maypa">
       <meta name="description" content="NCI Running Club. The running club of National College of Ireland. Dont stop running, Dont stop living.">
       <meta name="keywords" content="NCI,National,College,Ireland,Running,Club">
-      <meta property="og:image" content="images/pen-nav/logo.png">
+
+      <meta property="og:title" content="NCI Runners"/>
+      <meta property="og:description" content="NCI's Running Club. Dont stop running, Dont stop living."/>
+      <meta property="og:url" content="http://ncirunners.atwebpages.com/"/>
+
+      <meta property="og:image" content="http://ncirunners.atwebpages.com/images/pen-nav/logo.png"/>
+      <meta property="og:image:type" content="image/png"/>
+      <meta property="og:image:width" content="200"/>
+      <meta property="og:image:height" content="200"/>
+
 
       <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
       <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -24,15 +34,15 @@
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script src="js/nav-right-side.js"></script>
       <script src="js/script.js"></script>
-
   </head>
 
   <body onload="onload()">
+   
     <nav>
         <div id="nav-main">
           <a href="http://ncirunners.atwebpages.com">
             <div class="nav-logo">
-              <img src="images\pen-nav\logo.png" id="my-nav-logo">
+              <img src="images\pen-nav\logo.png" alt="NCI Runners logo" id="my-nav-logo">
             </div>
           </a>
 
@@ -43,23 +53,35 @@
 
       <div id="mySidenav" class="sidenav desk-hide">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
           <a href="#home" onclick="closeNav()">Home</a>
+          <ul>
+            <li><a href="pages/tips.html">Running Tips/Advice</a></li>
+            <li><a href="pages/form.html">Join the Club</a></li>
+          </ul>
           <a href="#about-us" onclick="closeNav()">About Us</a>
           <a href="#why-run" onclick="closeNav()">Why Run</a>
           <a href="#train-ground" onclick="closeNav()">Training Ground</a>
-          <a href="#contact" onclick="closeNav()">Contact</a>
+          <a class="hide" href="#contact" onclick="closeNav()">Contact</a>
+          
+          <p class="author">Developed by <a id="author-name" href="https://www.linkedin.com/in/penuelmaypa/">Penuel Maypa</a></p>          
       </div>
 
       <div class="desk-nav">
           <a href="#home">Home</a>
+          <ul>
+            <li><a href="pages/tips.html">Running Tips/Advice</a></li>
+            <li><a href="pages/form.html">Join the Club</a></li>
+          </ul>
           <a href="#about-us">About Us</a>
           <a href="#why-run">Why Run</a>
           <a href="#train-ground">Training Ground</a>
-          <a href="#contact">Contact</a>
+          <a class="hide" href="#contact">Contact</a>
+          <p class="author">Developed by <a id="author-name" href="https://www.linkedin.com/in/penuelmaypa/">Penuel Maypa</a></p>          
       </div>
     </nav>
 
-    <div class="notice" id="my-notice">
+    <div class="notice hide" id="my-notice">
       <div class="notice-board">
         <h1>This website is currently under beta testing</h1>
         <p>
@@ -161,7 +183,7 @@
             <ul>
               <li><a href="pages/tips.html">Tips & Advice</a></li>
               <li><a href="pages/form.html">Join Us</a></li>
-              <li><a href="#about-us">Abou Us</a></li>
+              <li><a href="#about-us">About Us</a></li>
               <li><a href="#why-run">Why Run</a></li>
               <li><a href="#train-ground"> Training Ground</a></li>
               <li><a href="#">Contact</a></li>
